@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Sprite.gd" type="Script" id=2]
+
+[node name="JoystickFun" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 511, 266 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
